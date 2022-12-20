@@ -1,0 +1,11 @@
+
+# For setup
+
+# For Build
+qmake gui.pro
+make
+
+# For deploying = build + running
+#
+# For running
+./build/debug/gui

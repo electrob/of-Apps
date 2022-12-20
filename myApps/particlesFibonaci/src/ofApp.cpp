@@ -23,6 +23,7 @@ void ofApp::resetParticles(){
 //--------------------------------------------------------------
 void ofApp::update(){
     time_elapsed++;
+    //cout << time_elapsed << "---";
     if(time_elapsed > 10) {
         time_elapsed = 0;
         demoParticle::attractPtX = ofRandom(0, ofGetHeight());
