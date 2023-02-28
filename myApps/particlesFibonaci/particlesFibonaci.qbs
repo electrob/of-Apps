@@ -12,17 +12,14 @@ Project{
         name: { return FileInfo.baseName(sourceDirectory) }
 
         files: [
+            'src/demoParticle.cpp',
+            'src/demoParticle.h',
             'src/main.cpp',
             'src/ofApp.cpp',
             'src/ofApp.h',
-            'src/tcp_server.cpp',
-            'src/tcp_server.h',
-            'src/udp_server.cpp',
-            'src/udp_server.h',
         ]
 
         of.addons: [
-            'ofxNetwork',
         ]
 
         // additional flags for the project. the of module sets some

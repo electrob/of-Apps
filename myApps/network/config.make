@@ -6,7 +6,7 @@
 ################################################################################
 # OF ROOT
 #   The location of your root openFrameworks installation
-#       (default) OF_ROOT = ../../../openFrameworks-base/openFrameworks-base/openFrameworks-base 
+#       (default) OF_ROOT = ../../../openFrameworks-base/./openFrameworks-base/openFrameworks-base/openFrameworks-base 
 ################################################################################
 OF_ROOT = /home/xrig/openFrameworks-base
 
